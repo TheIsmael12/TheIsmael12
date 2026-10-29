@@ -15,14 +15,14 @@ y la API a la interfaz, el agente de escritorio o la app móvil, con CI/CD y des
 
 ---
 
-## 🧭 Qué hago
+## Qué hago
 
 - **Lidero el frontend** en Enova IT: arquitectura, sistema de diseño, revisión de código y equipo.
 - **Producto de punta a punta**: requisitos con el cliente, presupuesto, desarrollo, CI/CD y puesta en marcha.
 - **Monorepos con contratos compartidos** entre API, webs, backoffice, apps móviles y agentes de escritorio.
 - **Calidad desde el principio**: tipado estricto, tests, Storybook, revisiones por PR y despliegues automatizados.
 
-## 🚀 Proyectos
+## Proyectos
 
 > Casi todos son proyectos de cliente en repositorios privados; aquí cuento qué son y con qué están hechos.
 
@@ -67,7 +67,7 @@ Web comercial, área privada de clientes (proyectos y tickets), intranet del equ
 Web de una gestoría digital, optimizada para SEO y multidioma.
 `Next.js` `next-intl` `SEO`
 
-## 🛠️ Stack
+## Stack
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
