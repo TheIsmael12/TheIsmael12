@@ -4,8 +4,8 @@
 
 **Frontend Tech Lead en [Enova IT](https://enovait.es)** · Madrid
 
-Diseño y construyo plataformas completas con **Next.js**, **NestJS** y **TypeScript**: del modelo de datos
-y la API a la interfaz, el agente de escritorio o la app móvil, con CI/CD y despliegue incluidos.
+Diseño y construyo plataformas completas con **Next.js**, **NestJS**, **React Native** y **TypeScript**:
+del modelo de datos y la API a la web, la app móvil o el agente de escritorio, con CI/CD y despliegue incluidos.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ismaelben.netlify.app-0f172a?style=for-the-badge&logo=netlify&logoColor=white)](https://ismaelben.netlify.app/es)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ismael_Benabdellah-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ismael-benabdellah/)
@@ -19,6 +19,8 @@ y la API a la interfaz, el agente de escritorio o la app móvil, con CI/CD y des
 
 - **Lidero el frontend** en Enova IT: arquitectura, sistema de diseño, revisión de código y equipo.
 - **Producto de punta a punta**: requisitos con el cliente, presupuesto, desarrollo, CI/CD y puesta en marcha.
+- **Apps móviles con React Native y Expo**: Android e iOS desde un solo código, builds con EAS por entorno
+  (desarrollo, pre y producción), actualizaciones OTA, notificaciones push y NFC.
 - **Monorepos con contratos compartidos** entre API, webs, backoffice, apps móviles y agentes de escritorio.
 - **Calidad desde el principio**: tipado estricto, tests, Storybook, revisiones por PR y despliegues automatizados.
 
@@ -37,10 +39,15 @@ backoffice y API pública.
 ### 🏢 Imora — ERP para una empresa de servicios a comunidades
 🌐 [imora.es](https://imora.es) · [intranet.imora.es](https://intranet.imora.es)
 
-API, intranet (CRM, facturación, compras, contabilidad, servicios y comunidades), web pública con portal
-de clientes y dos apps móviles: **Gestimora** para empleados (partes, fichaje, cuadrante, vacaciones) y
-**Vecino Imora** para los vecinos (portal, avisos e incidencias).
-`NestJS` `Next.js` `Expo` `React Native` `PostgreSQL`
+API, intranet (CRM, facturación, compras, contabilidad, servicios y comunidades) y web pública con portal
+de clientes, más dos apps móviles en **React Native**:
+
+| App | Para quién | Qué hace | Plataformas |
+| --- | --- | --- | --- |
+| 📱 **Gestimora** | Empleados | Partes de trabajo, fichaje, cuadrante, vacaciones y gastos | Android |
+| 🏠 **Vecino Imora** | Vecinos | Abrir el portal, tablón de avisos e incidencias de la comunidad | Android · iOS |
+
+`NestJS` `Next.js` `React Native` `Expo` `EAS` `PostgreSQL` `Redis` `Socket.IO`
 
 ### 🚑 SERAD — Salud en Ruta
 🌐 [saludenruta.es](https://saludenruta.es) · [intranet.saludenruta.es](https://intranet.saludenruta.es)
@@ -75,8 +82,11 @@ Web de una gestoría digital, optimizada para SEO y multidioma.
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/NestJS-e0234e?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Electron-47848f?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
+  <img src="https://img.shields.io/badge/React_Native-20232a?style=flat-square&logo=react&logoColor=61dafb" alt="React Native" />
   <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+  <img src="https://img.shields.io/badge/Android-34a853?style=flat-square&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS" />
+  <img src="https://img.shields.io/badge/Electron-47848f?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
   <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
   <img src="https://img.shields.io/badge/Sass-cc6699?style=flat-square&logo=sass&logoColor=white" alt="Sass" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06b6d4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
