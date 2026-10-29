@@ -44,8 +44,8 @@ de clientes, más dos apps móviles en **React Native**:
 
 | App | Para quién | Qué hace | Plataformas |
 | --- | --- | --- | --- |
-| 📱 **Gestimora** | Empleados | Partes de trabajo, fichaje, cuadrante, vacaciones y gastos | Android |
-| 🏠 **Vecino Imora** | Vecinos | Abrir el portal, tablón de avisos e incidencias de la comunidad | Android · iOS |
+| **Gestimora** | Empleados | Partes de trabajo, fichaje, cuadrante, vacaciones y gastos | Android |
+| **Vecino Imora** | Vecinos | Abrir el portal, tablón de avisos e incidencias de la comunidad | Android · iOS |
 
 `NestJS` `Next.js` `React Native` `Expo` `EAS` `PostgreSQL` `Redis` `Socket.IO`
 
