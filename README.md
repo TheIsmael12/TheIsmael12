@@ -2,7 +2,7 @@
 
 # Hola, soy Ismael 👋
 
-**Frontend Tech Lead en [Enova IT](https://enovait.es)** · Madrid
+**Frontend Tech Lead en [Enova IT](https://enovait.es)** · Desarrollador full stack · Madrid
 
 Diseño y construyo plataformas completas con **Next.js**, **NestJS**, **React Native** y **TypeScript**:
 del modelo de datos y la API a la web, la app móvil o el agente de escritorio, con CI/CD y despliegue incluidos.
@@ -15,64 +15,99 @@ del modelo de datos y la API a la web, la app móvil o el agente de escritorio, 
 
 ---
 
+## Sobre mí
+
+Me gusta llevar un producto de la idea a producción: hablar con el cliente, convertir sus necesidades en
+requisitos, presupuestarlo, diseñar la arquitectura y entregarlo funcionando, con tests y despliegue
+automático. En Enova IT lidero el frontend, y con **[NextAura](https://nextaura.es)** desarrollo productos
+propios y plataformas a medida para empresas de servicios, salud, inmobiliaria y gestoría.
+
 ## Qué hago
 
-- **Lidero el frontend** en Enova IT: arquitectura, sistema de diseño, revisión de código y equipo.
-- **Producto de punta a punta**: requisitos con el cliente, presupuesto, desarrollo, CI/CD y puesta en marcha.
-- **Apps móviles con React Native y Expo**: Android e iOS desde un solo código, builds con EAS por entorno
-  (desarrollo, pre y producción), actualizaciones OTA, notificaciones push y NFC.
-- **Monorepos con contratos compartidos** entre API, webs, backoffice, apps móviles y agentes de escritorio.
-- **Calidad desde el principio**: tipado estricto, tests, Storybook, revisiones por PR y despliegues automatizados.
+- **Liderazgo técnico de frontend**: arquitectura, sistemas de diseño con Storybook, revisión de código y
+  acompañamiento al equipo.
+- **Producto de punta a punta**: requisitos, presupuesto, desarrollo, CI/CD, despliegue y mantenimiento.
+- **Plataformas de gestión (ERP)**: CRM, presupuestos, pedidos y facturas con factura electrónica
+  (**Veri\*Factu**, **Facturae**), contabilidad PGC, tesorería con remesas **SEPA** y conciliación bancaria.
+- **Apps móviles con React Native y Expo**: Android e iOS desde un solo código, builds con EAS por entorno,
+  actualizaciones OTA, notificaciones push, NFC y cerraduras inteligentes.
+- **Software de escritorio**: agentes multiplataforma con **Electron** y motores nativos en **Rust**
+  (escritorio remoto por **WebRTC**, monitorización de seguridad con **Wazuh**).
+- **Calidad y seguridad desde el principio**: tipado estricto, tests unitarios, e2e y de componentes,
+  auditorías de seguridad, accesibilidad, RGPD y Gitflow con `main` como producción.
 
-## Proyectos
-
-> Casi todos son proyectos de cliente en repositorios privados; aquí cuento qué son y con qué están hechos.
+## Productos propios
 
 ### 🛡️ NextAnalyzer — monitorización y protección de equipos
 🌐 [nextanalyzer.com](https://nextanalyzer.com)
 
-Agente de escritorio para Windows, macOS y Linux sobre **Wazuh**: vulnerabilidades con arreglo de un clic,
+Agente de escritorio para Windows, macOS y Linux sobre **Wazuh**: vulnerabilidades con arreglo en un clic,
 bloqueo web por DNS, estado del hardware, acceso remoto y actualizaciones escalonadas. Panel de clientes,
 backoffice y API pública.
-`Electron` `NestJS` `Next.js` `PostgreSQL` `Redis` `Rust` `Wazuh` `GitHub Actions`
 
-### 🏢 Imora — ERP para una empresa de servicios a comunidades
-🌐 [imora.es](https://imora.es) · [intranet.imora.es](https://intranet.imora.es)
+`Electron` `Rust` `NestJS` `Next.js` `PostgreSQL` `Redis` `Wazuh` `GitHub Actions`
 
-API, intranet (CRM, facturación, compras, contabilidad, servicios y comunidades) y web pública con portal
-de clientes, más dos apps móviles en **React Native**:
+### 🖥️ NextRemote — escritorio remoto gratuito
+Escritorio remoto para cualquiera, **gratis y financiado con aportaciones voluntarias**. El equipo recibe un
+código, quien está delante acepta o rechaza la conexión y a los equipos propios se entra con acceso
+desatendido. Las grabaciones se quedan siempre en el equipo de quien graba, nunca en nuestros servidores.
+Incluye muro de agradecimientos, sistema antiabuso y backoffice.
+
+`Electron` `Rust` `WebRTC` `NestJS` `Next.js` `Stripe`
+
+### ✨ Plataforma de NextAura
+🌐 [nextaura.es](https://nextaura.es)
+
+Web comercial con blog y área privada de clientes, intranet del equipo, correo gestionado **NextMails** y una
+API en tiempo real con facturación, contabilidad y tesorería. Los frontales comparten un sistema de diseño
+propio, **nextaura-ui**, documentado en Storybook.
+
+`Next.js` `NestJS` `TypeORM` `Socket.IO` `Storybook`
+
+## Plataformas para clientes
+
+### 🏢 Imora — servicios para comunidades de propietarios
+🌐 [imora.es](https://imora.es)
+
+ERP completo para una empresa de conserjería, limpieza y mantenimiento en Madrid: CRM, presupuestos,
+facturación electrónica, compras, contabilidad, tesorería, stock, incidencias y empleo. Web pública con
+presupuesto en línea y portal de clientes, más dos apps móviles:
 
 | App | Para quién | Qué hace | Plataformas |
 | --- | --- | --- | --- |
-| **Gestimora** | Empleados | Partes de trabajo, fichaje, cuadrante, vacaciones y gastos | Android |
 | **Vecino Imora** | Vecinos | Abrir el portal, tablón de avisos e incidencias de la comunidad | Android · iOS |
+| **Gestimora** *(en desarrollo)* | Personal | Fichaje, cuadrante, partes de trabajo, vacaciones y gastos | Android |
 
 `NestJS` `Next.js` `React Native` `Expo` `EAS` `PostgreSQL` `Redis` `Socket.IO`
 
 ### 🚑 SERAD — Salud en Ruta
-🌐 [saludenruta.es](https://saludenruta.es) · [intranet.saludenruta.es](https://intranet.saludenruta.es)
+🌐 [saludenruta.es](https://saludenruta.es)
 
-Plataforma de servicios médicos y de enfermería a domicilio: centralita con mapa en tiempo real, historia
-clínica cifrada, receta electrónica privada (REMPE), motor de tarifas por km con OSRM y facturación con
-Verifactu.
+Plataforma de avisos médicos y de enfermería a domicilio: centralita con mapa en tiempo real, historia
+clínica cifrada, receta electrónica privada (REMPE), motor de tarifas por kilómetro con OSRM, portal de
+proveedores y facturación con Veri\*Factu.
+
 `NestJS` `Next.js` `Socket.IO` `BullMQ` `PostgreSQL` `Redis`
 
 ### 🏝️ RLST — inversión y gestión de inmuebles de lujo
-Catálogo de residencias exclusivas, inversión en participaciones sobre rentas, gestión de inmuebles de
-propietarios con liquidaciones, monedero, afiliados y backoffice.
+Catálogo de residencias exclusivas en Marruecos, inversión en participaciones sobre rentas, gestión de
+inmuebles de propietarios con liquidaciones, monedero, afiliados y backoffice.
+
 `NestJS` `Next.js` `PostgreSQL` `Monorepo`
-
-### ✨ NextAura
-🌐 [nextaura.es](https://nextaura.es)
-
-Web comercial, área privada de clientes (proyectos y tickets), intranet del equipo y API en tiempo real.
-`Next.js` `NestJS` `TypeORM` `Socket.IO`
 
 ### 📊 Vértice Gestión Empresarial
 🌐 [verticegestionempresarial.es](https://verticegestionempresarial.es)
 
-Web de una gestoría digital, optimizada para SEO y multidioma.
+Web de una gestoría digital, multidioma y optimizada para SEO.
+
 `Next.js` `next-intl` `SEO`
+
+## Código abierto
+
+| Proyecto | Qué es |
+| --- | --- |
+| [**Mail Scheduler**](https://github.com/TheIsmael12/roundcube-mail-scheduler) | Plugin de Roundcube para programar envíos (únicos o periódicos, con firma a elegir) y respuestas automáticas de fuera de la oficina. Probado en Roundcube 1.5, 1.6 y 1.7, con PostgreSQL y MariaDB |
+| Temas de Roundcube | Skins con la marca de cada empresa sobre Elastic, con modo oscuro: [NextAura](https://github.com/NextAura-ES/nextaura-roundcube) · [Imora](https://github.com/Imora-ES/imora-roundcube) · [Salud en Ruta](https://github.com/SaludEnRuta/serad-roundcube) · [Vértice](https://github.com/Vertice-ES/vertice-roundcube) |
 
 ## Stack
 
@@ -84,43 +119,47 @@ Web de una gestoría digital, optimizada para SEO y multidioma.
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/React_Native-20232a?style=flat-square&logo=react&logoColor=61dafb" alt="React Native" />
   <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
-  <img src="https://img.shields.io/badge/Android-34a853?style=flat-square&logo=android&logoColor=white" alt="Android" />
-  <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white" alt="iOS" />
   <img src="https://img.shields.io/badge/Electron-47848f?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
   <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
-  <img src="https://img.shields.io/badge/Sass-cc6699?style=flat-square&logo=sass&logoColor=white" alt="Sass" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06b6d4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Sass-cc6699?style=flat-square&logo=sass&logoColor=white" alt="Sass" />
   <img src="https://img.shields.io/badge/Storybook-ff4785?style=flat-square&logo=storybook&logoColor=white" alt="Storybook" />
 </p>
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169e1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Redis-dc382d?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/TypeORM-fe0803?style=flat-square&logo=typeorm&logoColor=white" alt="TypeORM" />
+  <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
   <img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088ff?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/AWS-232f3e?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
   <img src="https://img.shields.io/badge/Vitest-6e9f18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
   <img src="https://img.shields.io/badge/Jest-c21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" />
+  <img src="https://img.shields.io/badge/Playwright-2ead33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Stripe-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
+  <img src="https://img.shields.io/badge/PHP-777bb4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
 </p>
 
-## 📂 Cómo están organizados mis repositorios
+## 📂 Organizaciones
 
-Cada proyecto lleva el mismo prefijo, y los que tienen varias piezas tienen un repositorio de documentación
-común con el nombre del proyecto:
+Cada proyecto tiene su propia organización en GitHub. Casi todo el código es privado; en cada una hay una
+página que cuenta qué es cada repositorio y con qué está hecho.
 
-| Proyecto | Repositorios |
-| --- | --- |
-| NextAnalyzer | `nextanalyzer` (monorepo) |
-| Imora | `imora` (docs) · `imora-api` · `imora-intranet` · `imora-web` · `imora-app-empleados` · `imora-app-vecinos` |
-| SERAD | `serad` (docs) · `serad-api` · `serad-intranet` · `serad-landing` |
-| RLST | `rlst` (monorepo) |
-| NextAura | `nextaura` (docs) · `nextaura-api` · `nextaura-web` · `nextaura-intranet` · `nextaura-roundcube` |
-| Vértice Gestión | `verticegestion-web` |
+| Organización | Proyecto | Repositorios |
+| --- | --- | --- |
+| [**NextAura-ES**](https://github.com/NextAura-ES) | NextAura, NextAnalyzer y NextRemote | `nextaura` · `nextaura-api` · `nextaura-web` · `nextaura-intranet` · `nextaura-ui` · `nextaura-roundcube` · `nextanalyzer` · `nextremote` |
+| [**Imora-ES**](https://github.com/Imora-ES) | Imora | `imora` · `imora-api` · `imora-intranet` · `imora-web` · `imora-app-vecinos` · `imora-app-empleados` · `imora-roundcube` |
+| [**SaludEnRuta**](https://github.com/SaludEnRuta) | SERAD — Salud en Ruta | `serad` · `serad-api` · `serad-intranet` · `serad-landing` · `serad-roundcube` |
+| [**RLST-ES**](https://github.com/RLST-ES) | RLST | `rlst` |
+| [**Vertice-ES**](https://github.com/Vertice-ES) | Vértice Gestión Empresarial | `verticegestion-web` · `vertice-roundcube` |
 
 <div align="center">
 
 ---
 
 💬 ¿Hablamos de un proyecto? Escríbeme a **[ismaelmad12@gmail.com](mailto:ismaelmad12@gmail.com)**
+o por **[LinkedIn](https://www.linkedin.com/in/ismael-benabdellah/)**.
 
 </div>
