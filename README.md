@@ -58,11 +58,14 @@ Incluye muro de agradecimientos, sistema antiabuso y backoffice.
 ### ✨ Plataforma de NextAura
 🌐 [nextaura.es](https://nextaura.es)
 
-Web comercial con blog y área privada de clientes, intranet del equipo, correo gestionado **NextMails** y una
-API en tiempo real con facturación, contabilidad y tesorería. Los frontales comparten un sistema de diseño
-propio, **nextaura-ui**, documentado en Storybook.
+Web comercial con blog, asistente de presupuesto paso a paso y área privada de clientes; intranet del
+equipo y correo gestionado **NextMails**. La API en tiempo real cubre catálogo de servicios (puntuales,
+recurrentes y paquetes), presupuestos, pedidos con facturación periódica, facturas con **Veri\*Factu** y
+**Facturae**, contabilidad PGC, tesorería con remesas **SEPA** y plantillas de correos y documentos
+editables. Los frontales comparten un sistema de diseño propio, **@nextaura/ui**, documentado en
+Storybook y publicado en GitHub Packages; CI en GitHub Actions y despliegue en Vercel.
 
-`Next.js` `NestJS` `TypeORM` `Socket.IO` `Storybook`
+`Next.js` `NestJS` `TypeORM` `Socket.IO` `Storybook` `GitHub Actions` `Vercel`
 
 ## Plataformas para clientes
 
@@ -102,12 +105,27 @@ Web de una gestoría digital, multidioma y optimizada para SEO.
 
 `Next.js` `next-intl` `SEO`
 
+## Investigación abierta
+
+### 🔬 Simulador de cáncer de mama
+📂 [TheIsmael12/breast-cancer-abm](https://github.com/TheIsmael12/breast-cancer-abm)
+
+Modelo por agentes del cáncer de mama y de células terapéuticas programables, hecho con IA
+(**Claude**, de Anthropic) y dirigido por mí. Cada idea se mide con varias semillas y criterios escritos antes
+de ejecutar, con bitácora pública de hallazgos y errores. El último avance explora tratar sin operar con ctDNA
+mensual y ablación guiada. Educativo y exploratorio, no sirve para decisiones médicas.
+
+`Python` `Simulación por agentes` `Ciencia abierta` `MIT`
+
 ## Código abierto
 
 | Proyecto | Qué es |
 | --- | --- |
 | [**Mail Scheduler**](https://github.com/TheIsmael12/roundcube-mail-scheduler) | Plugin de Roundcube para programar envíos (únicos o periódicos, con firma a elegir) y respuestas automáticas de fuera de la oficina. Probado en Roundcube 1.5, 1.6 y 1.7, con PostgreSQL y MariaDB |
+| [**Portfolio**](https://github.com/TheIsmael12/portfolio) | Mi web personal ([ismaelben.netlify.app](https://ismaelben.netlify.app/es)), multidioma con Next.js, next-intl y Prisma |
 | Temas de Roundcube | Skins con la marca de cada empresa sobre Elastic, con modo oscuro: [NextAura](https://github.com/NextAura-ES/nextaura-roundcube) · [Imora](https://github.com/Imora-ES/imora-roundcube) · [Salud en Ruta](https://github.com/SaludEnRuta/serad-roundcube) · [Vértice](https://github.com/Vertice-ES/vertice-roundcube) |
+| [**BigIbai 2025**](https://github.com/midudev/bigibai-2025) | Contribución a la web oficial del evento ([bigibai.com](https://www.bigibai.com)), proyecto abierto de midudev con Astro: arreglo del renderizado de las ubicaciones en el mapa |
+| [**informa-todo**](https://github.com/TheIsmael12/informa-todo) | Prueba técnica: CRUD de tareas con Next.js 16 (App Router), React 19, API REST e i18n |
 
 ## Stack
 
@@ -140,6 +158,8 @@ Web de una gestoría digital, multidioma y optimizada para SEO.
   <img src="https://img.shields.io/badge/Playwright-2ead33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Stripe-635bff?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
   <img src="https://img.shields.io/badge/PHP-777bb4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
 ## 📂 Organizaciones
