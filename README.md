@@ -105,6 +105,17 @@ Web de una gestoría digital, multidioma y optimizada para SEO.
 
 `Next.js` `next-intl` `SEO`
 
+## Otros proyectos
+
+Webs para clientes (código privado):
+
+| Proyecto | Qué es | Tecnología |
+| --- | --- | --- |
+| **BoostSEO** | Web de una agencia de posicionamiento | `Next.js` `MUI` |
+| **GekkoClean** | Web de una empresa de limpieza | `Next.js` `TypeScript` `MUI` |
+| **Kacem Boutique** | Landing de lanzamiento con cuenta atrás y alta por email | `Next.js` `Three.js` `Nodemailer` |
+| **VendettaCorp** | Web corporativa multidioma | `React` `Vite` `MUI` `Firebase` `i18next` |
+
 ## Investigación abierta
 
 ### 🔬 Simulador de cáncer de mama
