@@ -10,6 +10,7 @@ del modelo de datos y la API a la web, la app móvil o el agente de escritorio, 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ismaelben.netlify.app-0f172a?style=for-the-badge&logo=netlify&logoColor=white)](https://ismaelben.netlify.app/es)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ismael_Benabdellah-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ismael-benabdellah/)
 [![Email](https://img.shields.io/badge/Email-ismaelmad12%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ismaelmad12@gmail.com)
+![Visitas](https://komarev.com/ghpvc/?username=TheIsmael12&label=Visitas&color=0f172a&style=for-the-badge)
 
 </div>
 
